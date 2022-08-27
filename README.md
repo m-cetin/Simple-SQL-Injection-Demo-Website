@@ -42,7 +42,7 @@ Load the contents of the sql file into your MySQL server, run your Apache2 serve
 
 `sudo mysql -u root -p simplesqli < dump_this_database.sql`
 
-Now you can access your SQL demo website at http://localhost.
+Now you can access your SQL demo website at http://localhost/index.php.
 
 # Demo
 
