@@ -20,9 +20,9 @@ Create a new MySQL user and create the database `simplesqli`:
 
 `sudo mysql`
 
-`CREATE DATABASE simplesqli`; 
+`CREATE DATABASE simplesqli;` 
 
-`CREATE USER 'user'@'localhost' IDENTIFIED BY 'yourPassword'`
+`CREATE USER 'user'@'localhost' IDENTIFIED BY 'yourPassword';`
 
 `GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';`
 
